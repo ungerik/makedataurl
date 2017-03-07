@@ -1,5 +1,5 @@
 # makedataurl
-Make a data-URL from a file, optionally serves it
+Make a data-URL from a file, optionally serve a HTML preview
 
 Install:
 <pre>
@@ -14,10 +14,10 @@ makedataurl test-images/melbourne-cbd.png --serve=localhost:8080
 </pre>
 
 
-Usage of makedataurl:
 <pre>
+Usage of makedataurl &lt;filename&gt;
   --out string
-    	save output to file
+    	save data-URL to file
   --serve string
-    	serve output at this address
+    	serve HTML preview at this HTTP address
 </pre>
